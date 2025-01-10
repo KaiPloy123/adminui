@@ -1,0 +1,11 @@
+name: AdminMenu
+main: AdminMenu\Main
+version: 1.0.0
+api: 5.0.0
+commands:
+  am:
+    description: เปิดเมนูแอดมิน
+    permission: adminmenu.use
+permissions:
+  adminmenu.use:
+    default: op
